@@ -1,4 +1,5 @@
 import React from "react";
+import Charty from "./Chart";
 
 class PlayerList extends React.Component {
   constructor() {
@@ -38,6 +39,7 @@ class PlayerList extends React.Component {
             <h3>{player.searches}</h3>
           </div>
         ))}
+        <Charty names={this.state.playerName} searches={this.state.searches} />
       </div>
     );
   }

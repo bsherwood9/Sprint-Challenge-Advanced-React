@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 90%;
 }
 
 .App-logo {
@@ -38,6 +39,6 @@
 }
 .blue {
   background: lightblue;
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
 }
